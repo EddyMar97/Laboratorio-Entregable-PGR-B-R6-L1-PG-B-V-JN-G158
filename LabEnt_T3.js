@@ -1,7 +1,6 @@
 let Valor1 = 0;
 let Valor2 = 0;
 let Operacion = "";
-var Suma="", Resta="", Multi="", Divi="";
 function Calcular (Valor1, Valor2, Operacion){
     if (Operacion === "1") {
         return Valor1 + Valor2;
