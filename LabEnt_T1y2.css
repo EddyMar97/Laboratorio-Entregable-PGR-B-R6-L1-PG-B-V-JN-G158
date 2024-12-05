@@ -122,6 +122,22 @@ section li {
 
 /* Formulario  */
 
+.Formu {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 7px solid white;
+    border-radius: 12px;
+    box-shadow: 20px 2px 20px 10px rgba(0,0,0,0.1);
+    background-color: rgb(207, 203, 203);
+}
+
+.FormuContent {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 fieldset {
     background-color: rgb(255, 228, 196);
   }
@@ -131,6 +147,7 @@ legend {
     color: white;
     padding: 5px 10px;
     font-size: 25px;
+    margin: 0 auto;
   }
 
 input {
@@ -166,3 +183,9 @@ input, textarea {
 #buttom:hover {
     background-color: rgb(123, 122, 122);
 }
+
+textarea {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

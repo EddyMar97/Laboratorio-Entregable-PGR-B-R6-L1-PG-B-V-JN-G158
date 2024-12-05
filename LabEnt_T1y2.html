@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio Entregable - Tema 1 y 2. - PGR-B -G158</title>
+    <title>Laboratorio Entregable - Módulo de programación nivel básico - PGR-B -G158</title>
     <link rel="stylesheet" href="./LabEnt_T1y2.css">
 </head>
 <body>
     <header>
-        <h1>Laboratorio Entregable - Laboratorio 1 - Fundamentos de Programación, HTML y GIT</h1>
+        <h1>Laboratorio Entregable - Módulo de programación nivel básico - R6-L1-PG-B-V-JN-G158</h1>
     </header>
 
     <div>
         <section>
             <h2 class="mainH2">Objetivo</h2>
-            <p>El propósito de esta página es utilizar los conocimientos adquiridos durante las sesiones 1 y 2 del módulo de programación básica del bootcamp <b>Talento Tech</b>.</p>
+            <p>El propósito de esta página es aplicar los conocimientos adquiridos durante las sesiones de los temas <b>1</b> a <b>5</b> del módulo de programación básica del bootcamp <b>Talento Tech</b>:
+            <br>En este laboratorio entregable se incluyen los siguientes laboratorios:
+            <ul>
+                <li><strong>Laboratorios 1 y 2:</strong> Fundamentos de Programación, HTML y GIT</li>
+                <li><strong>Laboratorio 4:</strong> HTML Sitio Web Estático</li>
+            </ul>
+            </p>
+            <p>En este repositorio de GitHub se encuentran alojados los siguientes laboratorios:
+                <ul>
+                    <li><strong>Laboratorio 3:</strong> Introducción de JavaScript</li>
+                    <li><strong>Laboratorio 5:</strong> Fundamentos de Python, Tablas SQL y MongoDB</li>
+                </ul>
+            </p>
         </section>
 
         <section id="secMe">
@@ -22,7 +34,7 @@
             <article>
                 <img src="Foto.jpg" class="imgMe" alt="Imagen de perfil">
                 <h2>Eddy Williams Martinez Bojacá</h2>
-                <h3>Correo Electrónico: <a href="mailto: eddy.martinez.ttc.964@unilibre.edu.co">eddy.martinez.ttc.964@unilibre.edu.co</a> Celular: (+57)3002065685
+                <h3>Correo Electrónico: <a href="mailto: eddy.martinez.ttc.964@unilibre.edu.co">eddy.martinez.ttc.964@unilibre.edu.co</a> Celular: (+57)3001234567
                 <br><a href="https://x.com/home">Twitter</a> <a href="https://www.facebook.com/?_rdr">Facebook</a> <a href="https://www.instagram.com/">Instagram</a>
                 <br>&#40;No uso redes sociales&#41;
                 <h3>
@@ -62,7 +74,9 @@
                 <li>Subir laboratorios entregables a la plataforma</li>
                 <li>Colocar luces de navidad</li>
                 <li>Pintar la reja</li>
+                <li>Realizar diligencia</li>
             </ol>
+            <p><b>Nota:</b> de ser posible, realizar diligencia en la mañana para evadir lluvias.</p>
             <table class="tbCSS" border="1" cellpadding="10" cellspacing="5">
                 <thead>
                     <tr>
@@ -77,45 +91,44 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Terminar laboratorios entregables</td>
                         <td></td>
-                        <td>Subir Laboratorios entregables a la plataforma</td>
+                        <td>Realizar diligencia</td>
                         <td>Pintar la reja</td>
+                        <td>Terminar laboratorios entregables</td>
+                        <td>Subir Laboratorios entregables a la plataforma</td>
+                        <td></td>
                         <td>Colocar luces de navidad</td>
-                        <td></td>
-                        <td></td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
         <section class="container">
-            <form action="#" method="post">
+            <form onsubmit="return formuValid()">
                 <fieldset>
                     <legend>Formulario de contacto</legend>
-                    <ul>
-                        <li>
+                    <div class="Formu">
+                        <div class="FormuContent">
                             <label for="RName">Nombres</label>
-                            <input type="text" id="RName" name="RName" required>
-                        </li>
-                        <li>
+                            <input type="text" id="RName" name="RName">
+
                             <label for="RApellido">Apellidos</label>
-                            <input type="text" id="RApellido" name="RApellido" required>
-                        </li>
-                        <li>
+                            <input type="text" id="RApellido" name="RApellido">
+
                             <label for="REmail">Email</label>
-                            <input type="email" id="REmail" name="Remail" required>
-                        </li>
-                        <li>
+                            <input type="email" id="REmail" name="Remail">
+
                             <label for="Mensaje">Mensaje</label>
                             <textarea id="Mensaje" name="Mensaje" rows="5" cols="50"></textarea>
-                        </li>
-                    </ul>
-                    <p>Por favor rellene este formulario si desea ponerse en contacto conmigo.</p>
+                            <p>Por favor rellene este formulario si desea ponerse en contacto conmigo.</p>
+
+                            <input type="submit" value="Enviar" id="buttom"></input>
+                        </div>
+                    </div>
                 </fieldset>
-                <input type="submit" value="Enviar" id="buttom"></input>
             </form>
         </section>
     </div>
+    <script src="LabEnt_T4.js"></script>
 </body>
 </html>
