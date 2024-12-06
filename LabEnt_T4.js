@@ -1,3 +1,4 @@
+// Laboratorio 4 HTML SITIO WEB ESTÁTICO
 function formuValid(){
     let RName = document.getElementById("RName").value;
     let RApellido = document.getElementById("RApellido").value;
@@ -8,7 +9,7 @@ function formuValid(){
         alert("Campo obligatorio");
         return false;
     } else {
-        alert("Me pondré en contacto con usted prongo :)");
+        alert("Información enviada: me pondré en contacto con usted pronto.");
     }
 
     return true;

@@ -1,3 +1,4 @@
+// Laboratorio 3 – Introducción de JavaScript
 let Valor1 = 0;
 let Valor2 = 0;
 let Operacion = "";

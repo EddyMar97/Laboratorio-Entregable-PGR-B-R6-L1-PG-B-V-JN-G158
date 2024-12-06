@@ -171,6 +171,8 @@ input, textarea {
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 4px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
 #buttom {
@@ -184,8 +186,8 @@ input, textarea {
     background-color: rgb(123, 122, 122);
 }
 
-textarea {
+/* textarea {
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+} */
 
